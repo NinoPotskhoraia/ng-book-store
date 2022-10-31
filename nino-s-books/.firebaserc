@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "nino-s-books": {
+      "hosting": {
+        "nino-s-books": [
+          "nino-s-books"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "nino-s-books"
+  }
+}

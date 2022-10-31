@@ -1,0 +1,9 @@
+<div class="container" *ngIf="auth.isLoading$ | async; else loaded">
+  <app-loading></app-loading>
+</div>
+
+<ng-template #loaded>
+  <app-header></app-header>
+
+  <app-footer></app-footer>
+</ng-template>
