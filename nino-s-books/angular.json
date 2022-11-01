@@ -117,5 +117,8 @@
       }
     }
   },
-  "defaultProject": "nino-s-books"
+  "defaultProject": "nino-s-books",
+  "cli": {
+    "analytics": false
+  }
 }

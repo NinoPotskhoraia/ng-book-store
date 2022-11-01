@@ -7,6 +7,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LandingPageModule } from './features/landing-page.module';
+import { NgImageSliderModule } from 'ng-image-slider';
 
 @NgModule({
   declarations: [AppComponent],
@@ -17,6 +18,7 @@ import { LandingPageModule } from './features/landing-page.module';
     LandingPageModule,
     AngularFireModule.initializeApp(env.firebase),
     AngularFirestoreModule,
+    NgImageSliderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
