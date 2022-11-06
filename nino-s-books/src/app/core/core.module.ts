@@ -14,6 +14,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { CartComponent } from './components/cart/cart.component';
 import { LoadingComponent } from './components/loading/loading.component';
 import { RouterModule } from '@angular/router';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { RouterModule } from '@angular/router';
       ...env.auth,
     }),
     RouterModule,
+    SharedModule,
   ],
   exports: [
     PageNotFoundComponent,

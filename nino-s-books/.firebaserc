@@ -1,14 +1,23 @@
 {
+  "projects": {
+    "default": "nino-s-book-store",
+    "dist": "nino-s-book-store"
+  },
   "targets": {
     "nino-s-books": {
       "hosting": {
         "nino-s-books": [
-          "nino-s-books"
+          "nino-s-book-store"
+        ]
+      }
+    },
+    "nino-s-book-store": {
+      "hosting": {
+        "nino-s-books": [
+          "nino-s-book-store"
         ]
       }
     }
   },
-  "projects": {
-    "default": "nino-s-books"
-  }
+  "etags": {}
 }

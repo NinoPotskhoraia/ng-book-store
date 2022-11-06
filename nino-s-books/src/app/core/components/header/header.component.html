@@ -18,61 +18,35 @@
           "
         >
           <img
-            src="../../../../assets/images/books.png"
-            width="36px"
-            height="36px"
+            src="../../../../assets/images/icons/bookstore.png"
+            width="50px"
+            height="50px"
             alt="books"
           />
           <span>Nino's Books</span>
         </div>
       </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler" type="button">
+        <img
+          src="../../../../assets/images/icons/icons8-menu.gif"
+          width="25px"
+          height="25px"
+          alt="hamburger menu"
+        />
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link pl-lg-0" href="index.html"
-              >Home <span class="sr-only"></span
-            ></a>
+      <div class="navbar-collapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/fiction">Fiction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html"> About</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Categories
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Biography</a></li>
-              <li><a class="dropdown-item" href="#">Textbooks</a></li>
-              <li><a class="dropdown-item" href="#">Classics</a></li>
-              <li><a class="dropdown-item" href="#">Detectives</a></li>
-              <li><a class="dropdown-item" href="#">Children's Books</a></li>
-              <li><a class="dropdown-item" href="#">Adventure</a></li>
-              <li><a class="dropdown-item" href="#">Romance</a></li>
-              <li><a class="dropdown-item" href="#">Contemporery</a></li>
-            </ul>
+            <a class="nav-link" routerLiunk="/bio">non Fiction</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html"> Blog </a>
+            <a class="nav-link">About us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact Us</a>
+            <a class="nav-link">Contact us</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -82,6 +56,7 @@
             placeholder="Search"
             aria-label="Search"
           />
+
           <button class="btn btn-outline-light" type="submit">Search</button>
         </form>
       </div>

@@ -31,6 +31,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -99,6 +100,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -110,14 +112,14 @@
             "prerender": false,
             "ssr": false,
             "browserTarget": "nino-s-books:build:production",
-            "firebaseProject": "nino-s-books",
-            "firebaseHostingSite": "nino-s-books"
+            "firebaseProject": "nino-s-book-store",
+            "firebaseHostingSite": "nino-s-book-store"
           }
         }
       }
     }
   },
-  "defaultProject": "nino-s-books",
+  "defaultProject": "nino-s-book-store",
   "cli": {
     "analytics": false
   }
