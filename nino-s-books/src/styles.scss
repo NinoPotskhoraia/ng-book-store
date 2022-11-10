@@ -1,4 +1,103 @@
 /* You can add global styles to this file, and also import other style files */
+@import "./styles/variables";
+@import "./styles/palette";
+@import "./styles/mixins";
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Raleway:wght@200&family=Roboto:wght@700&display=swap");
+
+html,
+body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $regular-font-family;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+p {
+  font-size: 18px;
+  color: $primary-color;
+  padding: 0.5em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.justify {
+  justify-content: space-between;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+}
+
+label {
+  font-family: $light-font-family;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: $primary-color;
+  display: block;
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.wrapper {
+  height: auto;
+  width: auto;
+  padding: 0 8rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+button {
+  @include button;
+}
+
+button:hover {
+  @include button-hover;
+}
+
+form {
+  background-color: $primary-color;
+  border-radius: 10px;
+  border: 2px solid $primary-text-color;
+  box-shadow: 5px 7px 32px 1px $primary-color;
+}
+
+input,
+select {
+  @include input;
+}
+
+input:focus {
+  @include input-focus;
+}
+
+h2 {
+  @include heading;
+}

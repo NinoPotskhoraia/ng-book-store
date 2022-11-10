@@ -1,0 +1,52 @@
+@import "../../styles/core-style";
+
+footer {
+  padding-top: 90px;
+  padding-bottom: 40px;
+  background-color: $primary-color;
+}
+
+.social-icons img:first-child,
+.social-icons img:nth-child(2) {
+  margin-right: 10.4px;
+}
+
+.socials {
+  margin-bottom: 54px;
+}
+
+.socials .logo span {
+  font-size: 24px;
+}
+
+.socials .grey {
+  max-width: 260px;
+  color: $primary-text-color;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  color: $primary-text-color;
+  margin-bottom: 20px;
+}
+
+.footer-item {
+  margin-bottom: 10px;
+}
+
+.footer-item a {
+  color: $additional-color;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contact-item {
+  margin-bottom: 20px;
+}
+
+.contact-item span {
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
